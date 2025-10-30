@@ -1,0 +1,45 @@
+export const experience = [
+  {
+    id: 1,
+    role: 'Full Stack Developer Intern',
+    organization: 'KL University Innovation Lab',
+    startDate: 'Jan 2024',
+    endDate: 'Present',
+    location: 'KL University, Vijayawada',
+    description: [
+      'Leading development of campus-wide digital solutions including Smart Campus Navigation System and Event Management Platform',
+      'Built AI-powered navigation app that reduced student navigation time by 40% using React, Node.js, and MongoDB',
+      'Mentored junior developers and conducted technical workshops on modern web development practices',
+      'Collaborated with university stakeholders to identify and solve real-world problems through technology',
+    ],
+  },
+  {
+    id: 2,
+    role: 'Research Assistant',
+    organization: 'KL University Computer Science Department',
+    startDate: 'Sep 2023',
+    endDate: 'Dec 2023',
+    location: 'KL University, Vijayawada',
+    description: [
+      'Conducted research on AI-powered attendance systems using facial recognition and computer vision',
+      'Developed facial recognition algorithms using Python and OpenCV, achieving 95% accuracy',
+      'Integrated attendance system with university database and built real-time analytics dashboard',
+      'Published research findings in university technical journal and presented at departmental seminars',
+    ],
+  },
+  {
+    id: 3,
+    role: 'Computer Science Student',
+    organization: 'KL University',
+    startDate: 'Aug 2021',
+    endDate: 'May 2025',
+    location: 'KL University, Vijayawada',
+    description: [
+      'Bachelor of Technology in Computer Science Engineering (Expected Graduation: 2025)',
+      'Active member of IEEE Student Chapter and Google Developer Student Club',
+      'Organized multiple hackathons and coding competitions, attracting 1000+ participants',
+      'Led development of campus event management platform that handled 5000+ registrations during Tech Fest 2024',
+      'GPA: 9.2/10, Dean\'s List for 6 consecutive semesters',
+    ],
+  },
+];
