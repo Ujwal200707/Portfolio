@@ -1,161 +1,112 @@
-# Deevi Ujwal - Full Stack Developer Portfolio
-
-A polished, responsive student portfolio website built with React and Material-UI (MUI), showcasing skills, projects, and achievements with clean UX, accessible components, and thoughtful content.
-
-## 🚀 Live Demo
-
-[View Portfolio](https://deeviujwal.dev) (Deployed on Netlify/Vercel)
-
-## 🛠️ Tech Stack
-
-- **Frontend Framework:** React 19
-- **Build Tool:** Vite
-- **UI Library:** Material-UI (MUI) v7
-- **Routing:** React Router DOM
-- **Icons:** MUI Icons
-- **Styling:** MUI Theme System (Light/Dark modes)
-- **Deployment:** Netlify/Vercel/GitHub Pages
-
-## 📁 Project Structure
-
-```
+దీవి ఉజ్వల్ - ఫుల్ స్టాక్ డెవలపర్ పోర్ట్‌ఫోలియో
+React మరియు Material-UI (MUI) తో రూపొందించిన మెరుగైన, స్పందనాత్మక విద్యార్థి పోర్ట్‌ఫోలియో వెబ్‌సైట్ — నైపుణ్యాలు, ప్రాజెక్టులు మరియు సాధనాలను శుభ్రమైన UX, సులభమైన యాక్సెసిబిలిటీతో ప్రదర్శిస్తుంది.
+🚀 ప్రత్యక్ష ప్రదర్శన
+పోర్ట్‌ఫోలియోను చూడండి (Netlify/Vercel పై డిప్లాయ్ చేయబడింది)
+🛠️ టెక్ స్టాక్
+ఫ్రంట్‌ఎండ్ ఫ్రేమ్‌వర్క్: React 19
+బిల్డ్ టూల్: Vite
+UI లైబ్రరీ: Material-UI (MUI) v7
+రౌటింగ్: React Router DOM
+ఐకాన్లు: MUI Icons
+స్టైలింగ్: MUI థీమ్ సిస్టమ్ (లైట్/డార్క్ మోడ్‌లు)
+డిప్లాయ్‌మెంట్: Netlify / Vercel / GitHub Pages
+📁 ప్రాజెక్ట్ నిర్మాణం
 src/
-├── components/          # Reusable UI components
-│   ├── AppBar.jsx       # Navigation bar with theme toggle
-│   ├── ContactForm.jsx  # Contact form with validation
-│   ├── ProjectCard.jsx  # Project showcase card
-│   ├── SectionHeader.jsx # Section titles
-│   └── SkillChipGroup.jsx # Skills display
-├── data/                # Config-driven content
-│   ├── achievements.js  # Certifications and awards
-│   ├── experience.js    # Work and education history
-│   ├── projects.js      # Project portfolio
-│   ├── skills.js        # Technical skills
-│   └── testimonials.js  # Client/peer testimonials
-├── hooks/               # Custom React hooks
-│   └── useThemeMode.js  # Theme persistence
-├── pages/               # Route components
-│   └── Home.jsx         # Main portfolio page
-├── sections/            # Portfolio sections
-│   ├── About.jsx        # Personal introduction
-│   ├── Achievements.jsx # Certifications
-│   ├── Blog.jsx         # Writing samples
-│   ├── Contact.jsx      # Contact information
-│   ├── Experience.jsx   # Timeline of experience
-│   ├── Footer.jsx       # Site footer
-│   ├── Hero.jsx         # Landing section
-│   ├── Projects.jsx     # Project showcase
-│   ├── Skills.jsx       # Technical skills
-│   └── Testimonials.jsx # Testimonials
-├── theme/               # MUI theme configuration
-│   └── index.js         # Light/dark theme setup
-├── App.jsx              # Main app component
-└── main.jsx             # App entry point
-```
+├── components/          # పునర్వినియోగించగల UI కాంపోనెంట్లు
+│   ├── AppBar.jsx       # థీమ్ టాగిల్ ఉన్న నావ్‌బార్
+│   ├── ContactForm.jsx  # ధృవీకరణతో కూడిన కాంటాక్ట్ ఫారం
+│   ├── ProjectCard.jsx  # ప్రాజెక్ట్ ప్రదర్శన కార్డు
+│   ├── SectionHeader.jsx # విభాగ శీర్షికలు
+│   └── SkillChipGroup.jsx # నైపుణ్యాల ప్రదర్శన
+├── data/                # కాన్ఫిగరేషన్ ఆధారిత కంటెంట్
+│   ├── achievements.js  # సర్టిఫికేషన్లు మరియు అవార్డులు
+│   ├── experience.js    # ఉద్యోగ మరియు విద్యా అనుభవం
+│   ├── projects.js      # ప్రాజెక్ట్ వివరాలు
+│   ├── skills.js        # సాంకేతిక నైపుణ్యాలు
+│   └── testimonials.js  # క్లయింట్/తోటి అభిప్రాయాలు
+├── hooks/               # కస్టమ్ React హుక్స్
+│   └── useThemeMode.js  # థీమ్ నిల్వ మరియు మార్పు
+├── pages/               # రూట్ కాంపోనెంట్లు
+│   └── Home.jsx         # ప్రధాన పోర్ట్‌ఫోలియో పేజీ
+├── sections/            # వెబ్‌సైట్ విభాగాలు
+│   ├── About.jsx        # వ్యక్తిగత పరిచయం
+│   ├── Achievements.jsx # సర్టిఫికేషన్లు
+│   ├── Blog.jsx         # రచన నమూనాలు
+│   ├── Contact.jsx      # సంప్రదింపు వివరాలు
+│   ├── Experience.jsx   # టైమ్‌లైన్
+│   ├── Footer.jsx       # ఫుటర్
+│   ├── Hero.jsx         # ల్యాండింగ్ సెక్షన్
+│   ├── Projects.jsx     # ప్రాజెక్ట్ ప్రదర్శన
+│   ├── Skills.jsx       # నైపుణ్యాలు
+│   └── Testimonials.jsx # అభిప్రాయాలు
+├── theme/               # MUI థీమ్ కాన్ఫిగరేషన్
+│   └── index.js         # లైట్/డార్క్ థీమ్ సెటప్
+├── App.jsx              # ప్రధాన యాప్ కాంపోనెంట్
+└── main.jsx             # ఎంట్రీ పాయింట్
 
-## 🏃‍♂️ Getting Started
-
-### Prerequisites
-
-- Node.js (v16 or higher)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/deeviujwal/portfolio.git
-   cd portfolio
-   ```
-
-2. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-3. Start the development server:
-   ```bash
-   npm run dev
-   ```
-
-4. Open [http://localhost:5173](http://localhost:5173) in your browser.
-
-### Build for Production
-
-```bash
+🏃‍♂️ ప్రారంభించడం
+అవసరాలు
+Node.js (v16 లేదా అంతకంటే ఎక్కువ)
+npm లేదా yarn
+ఇన్‌స్టలేషన్
+రిపోజిటరీని క్లోన్ చేయండి:
+git clone https://github.com/deeviujwal/portfolio.git
+cd portfolio
+డిపెండెన్సీలు ఇన్‌స్టాల్ చేయండి:
+npm install
+డెవలప్‌మెంట్ సర్వర్ ప్రారంభించండి:
+npm run dev
+మీ బ్రౌజర్‌లో http://localhost:5173 తెరవండి.
+ప్రొడక్షన్ బిల్డ్ చేయడం
 npm run build
-```
-
-### Preview Production Build
-
-```bash
+ప్రొడక్షన్ ప్రీవ్యూ
 npm run preview
-```
-
-## ✨ Features
-
-- **Responsive Design:** Mobile-first approach, tested at 360px, 768px, 1280px
-- **Dark/Light Theme:** Persistent theme toggle with localStorage
-- **Accessibility:** WCAG compliant with semantic HTML, ARIA labels, keyboard navigation
-- **SEO Optimized:** Meta tags, Open Graph, structured data
-- **Performance:** Optimized bundle size, lazy loading, efficient rendering
-- **Interactive Elements:** Filterable projects, validated contact form, smooth scrolling
-- **Config-Driven:** Easy content updates via JSON-like data files
-
-## 🎯 Key Sections
-
-1. **Hero:** Name, role, value proposition, CTA buttons
-2. **About:** Bio, interests, avatar, quick facts
-3. **Skills:** Categorized technical skills with progress indicators
-4. **Projects:** Filterable project cards with demos and repos
-5. **Experience:** Timeline of work and education
-6. **Achievements:** Certifications and awards
-7. **Testimonials:** Client and peer feedback
-8. **Blog:** Writing samples and articles
-9. **Contact:** Validated form with social links
-
-## 📊 Performance Metrics
-
-- **Lighthouse Score:** Performance ≥80, Accessibility ≥90
-- **Bundle Size:** Optimized with code splitting
-- **Load Time:** Fast initial page load
-- **SEO:** Proper meta tags and structured content
-
-## 🚀 Deployment
-
-### Netlify
-
-1. Build the project: `npm run build`
-2. Upload the `dist` folder to Netlify
-3. Configure domain and SSL
-
-### Vercel
-
-1. Connect GitHub repository to Vercel
-2. Set build command: `npm run build`
-3. Set output directory: `dist`
-4. Deploy automatically on push
-
-### GitHub Pages
-
-1. Install gh-pages: `npm install --save-dev gh-pages`
-2. Add deploy script to package.json
-3. Run `npm run deploy`
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch: `git checkout -b feature/amazing-feature`
-3. Commit changes: `git commit -m 'Add amazing feature'`
-4. Push to branch: `git push origin feature/amazing-feature`
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 📞 Contact
-
-Deevi Ujwal - [deeviujwal@example.com](mailto:deeviujwal@example.com)
-
-Project Link: [https://github.com/deeviujwal/portfolio](https://github.com/deeviujwal/portfolio)
+✨ ఫీచర్లు
+స్పందనాత్మక డిజైన్: 360px, 768px, 1280px స్క్రీన్‌లపై పరీక్షించబడింది
+డార్క్/లైట్ థీమ్: localStorage ద్వారా థీమ్ నిల్వ
+యాక్సెసిబిలిటీ: WCAG ప్రమాణాలు, కీబోర్డ్ నావిగేషన్, ARIA లేబుల్‌లు
+SEO ఆప్టిమైజేషన్: మెటా ట్యాగ్‌లు, ఓపెన్ గ్రాఫ్, నిర్మిత డేటా
+పర్ఫార్మెన్స్: లేజీ లోడింగ్, కోడ్ స్ప్లిటింగ్, వేగవంతమైన రేడరింగ్
+ఇంటరాక్టివ్ ఎలిమెంట్లు: ఫిల్టర్ చేయగల ప్రాజెక్టులు, ధృవీకరణ ఫారం, స్మూత్ స్క్రోలింగ్
+కాన్ఫిగరేషన్ ఆధారిత డేటా: JSON ఫైళ్ల ద్వారా సులభమైన కంటెంట్ అప్‌డేట్
+🎯 ముఖ్య విభాగాలు
+Hero: పేరు, పాత్ర, CTA బటన్‌లు
+About: బయో, ఆసక్తులు, అవతార్
+Skills: వర్గీకరించిన సాంకేతిక నైపుణ్యాలు
+Projects: ఫిల్టర్ చేయగల ప్రాజెక్ట్ కార్డులు
+Experience: ఉద్యోగ & విద్య టైమ్‌లైన్
+Achievements: సర్టిఫికేషన్లు మరియు అవార్డులు
+Testimonials: అభిప్రాయాలు
+Blog: రచన నమూనాలు
+Contact: ధృవీకరణ ఫారం మరియు సోషల్ లింకులు
+📊 పనితీరు సూచికలు
+Lighthouse స్కోర్: పనితీరు ≥80, యాక్సెసిబిలిటీ ≥90
+బండిల్ సైజ్: కోడ్ స్ప్లిటింగ్ ద్వారా ఆప్టిమైజ్డ్
+లోడ్ టైమ్: వేగవంతమైన ప్రారంభ లోడింగ్
+SEO: సరైన మెటా ట్యాగ్‌లు మరియు నిర్మాణం
+🚀 డిప్లాయ్‌మెంట్
+Netlify
+ప్రాజెక్ట్ బిల్డ్ చేయండి: npm run build
+dist ఫోల్డర్‌ను Netlify లో అప్‌లోడ్ చేయండి
+డొమైన్ మరియు SSL కాన్ఫిగర్ చేయండి
+Vercel
+GitHub రిపోను Vercel కు కనెక్ట్ చేయండి
+బిల్డ్ కమాండ్: npm run build
+అవుట్‌పుట్ డైరెక్టరీ: dist
+ఆటో డిప్లాయ్ పుష్ పై
+GitHub Pages
+gh-pages ఇన్‌స్టాల్ చేయండి: npm install --save-dev gh-pages
+package.json లో డిప్లాయ్ స్క్రిప్ట్ జోడించండి
+npm run deploy అమలు చేయండి
+🤝 సహకారం
+రిపోజిటరీని fork చేయండి
+కొత్త బ్రాంచ్ సృష్టించండి: git checkout -b feature/amazing-feature
+మార్పులు కమిట్ చేయండి: git commit -m 'Add amazing feature'
+బ్రాంచ్‌కు పుష్ చేయండి: git push origin feature/amazing-feature
+Pull Request ఓపెన్ చేయండి
+📝 లైసెన్స్
+ఈ ప్రాజెక్ట్ MIT లైసెన్స్ కింద లభిస్తుంది — LICENSE ఫైల్‌ను చూడండి.
+📞 సంప్రదించండి
+దీవి ఉజ్వల్ - deeviujwal@example.com
+ప్రాజెక్ట్ లింక్: https://github.com/deeviujwal/portfolio
+మీకు ఇది Markdown ఫైల్ (README.md) రూపంలో కావాలా? నేను దానిని డౌన్‌లోడ్ చేయదగిన ఫైల్‌గా రూపొందించగలను.
